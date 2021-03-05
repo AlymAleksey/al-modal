@@ -1,0 +1,43 @@
+@import "~normalize.css";
+
+@import "valiables";
+@import "mixins";
+@import "fonts";
+
+// Default styles, delete after starting work
+body {
+  @include font(Roboto);
+  background: url("../assets/img/design/bg/bg.jpg");
+  background-size: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  float: left;
+  margin-right: 10px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.text {
+  &--light {
+    font-weight: 300;
+  }
+}
+
+.italic {
+  font-style: italic;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+
+// Default styles, delete after starting work
